@@ -1,10 +1,13 @@
 body, html{
   height:100%;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/80s-wallpaper-200715141622301600x1200.jpg");
+  background-size: 100%;
 }
 body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  /* background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/80s-wallpaper-200715141622301600x1200.jpg"); */
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -24,4 +27,11 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+  content: url("https://media.giphy.com/media/KfHtXkHBrA1tyg1HWZ/giphy.gif");
+  block-size: 50px;
+}
+.car{
+  block-size: 50px;
+  content: url("https://thumbs.gfycat.com/MilkyEarlyFirebelliedtoad-size_restricted.gif");
+  /* background-image: url("https://thumbs.gfycat.com/MilkyEarlyFirebelliedtoad-size_restricted.gif"); */
 }
